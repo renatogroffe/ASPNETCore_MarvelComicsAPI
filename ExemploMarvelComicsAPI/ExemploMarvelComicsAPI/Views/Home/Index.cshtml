@@ -1,0 +1,13 @@
+﻿<h1>Exemplo de utilização - Marvel Comics API</h1>
+
+@model Personagem
+
+<div style="overflow: hidden; margin-top: 50px;">
+    <div style="float: left; margin-right: 50px;">
+        <img src="@Model.UrlImagem" height="200" width="200" />
+    </div>
+    <div style="margin-left: 50px;">
+        <h2><a href="@Model.UrlWiki">@Model.Nome</a></h2>
+        <p>@Model.Descricao</p>
+    </div>
+</div>
